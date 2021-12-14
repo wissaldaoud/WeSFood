@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".tel"
+    android:orientation="vertical">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:id="@+id/tel"
+        android:layout_height="500dp"
+        app:lottie_autoPlay="true"
+        app:lottie_url="https://assets2.lottiefiles.com/packages/lf20_hgvrowg5.json"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="italic"
+        android:text="  +216 53 123 121 "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:fontFamily="sans-serif">
+
+    </TextView>
+
+</LinearLayout>
+

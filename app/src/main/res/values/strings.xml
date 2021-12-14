@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeSFood</string>
+    <string-array name="food">
+        <item>Burger</item>
+        <item>pizza</item>
+        <item>Bugercheese</item>
+        <item>pizza neptune</item>
+
+    </string-array>
+    <string name="no_internet_connection">No internet Connection</string>
+    <string name="try_again">Try Again</string>
+</resources>
